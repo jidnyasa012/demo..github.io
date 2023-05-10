@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+
+  </head>
+  <body>
+   
+      <a-scene embedded arjs='sourceType: webcam;'>
+        <!-- AR marker and camera code here -->
+        <a-camera></a-camera>
+        <a-marker preset="hiro">
+            <a-text value="Hello, World!"></a-text>
+          </a-marker>
+      </a-scene>
+      
+  </body>
+</html>
